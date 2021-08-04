@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap');
+
+body {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url(background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-family: karla;
+    font-size: 70px;
+    margin-top: 300px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+.desc-title {
+    margin-top: -40px;
+}
+
+.aioDesc {
+    margin-top: -40px;
+    font-family: karla;
+    font-size: 24px;
+    font-weight: 520;
+    text-align: center;
+    color: white;
+    width: 360px;
+    margin: auto;
+}
+.section-top-text {
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section-top-text img {
+    width: auto;
+    height: 480px;
+    /*margin-top: 300px;*/
+}
+/* Mid Portion */
+.text-btn {
+    display: inline-block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.dash-btn {
+    display: inline-block;
+    margin-top: 12px;
+    /* margin-bottom: 20%; */
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-family: karla;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+	width: 170px;
+    padding: 14px 0px;
+    border-radius: 7px;
+	background:rgba(255,255,255,0);
+    transition: ease-in 0.3s;
+    background: linear-gradient(-220.06078820689deg , rgb(0, 129, 255) 0%, rgb(0, 129, 255) 100%);
+}
+.dash-btn:hover {
+    box-shadow:0px 0px 12px 1px rgba(0, 0, 0, 0.596);
+    transition: ease-out 0.3s;
+}
+
+.dash-btn2 {
+    display: inline-block;
+    margin-top: 12px;
+    /* margin-bottom: 20%; */
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-family: karla;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+	width: 170px;
+    padding: 14px 0px;
+    border-radius: 7px;
+	background:rgba(255,255,255,0);
+    transition: ease-in 0.3s;
+    background: linear-gradient(-220.06078820689deg , rgb(0, 129, 255) 0%, rgb(0, 129, 255) 100%);
+}
+.dash-btn2:hover {
+    box-shadow:0px 0px 12px 1px rgba(0, 0, 0, 0.596);
+    transition: ease-out 0.3s;
+}
+
+
+/* Footer */
+.menu {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: baseline;
+    vertical-align: baseline;
+    width: 300px;
+    height: 30px;
+    
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        display: none;
+    }
+}
+
+.simple-notification-wrapper {
+    position: fixed;
+    width: 300px;
+    z-index: 1000;
+}
+
+.simple-notification-wrapper.left {
+    left: 20px;
+}
+
+.simple-notification-wrapper.top {
+    top: 20px;
+}
+
+.simple-notification-wrapper.right {
+    right: 20px;
+}
+
+.simple-notification-wrapper.bottom {
+    bottom: 20px;
+}
+
+.simple-notification-wrapper.center {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.simple-notification-wrapper.middle {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.simple-notification-wrapper.middle.center {
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 340px) {
+    .simple-notification-wrapper {
+        width: auto;
+        left: 20px;
+        right: 20px;
+    }
+}
+
+.hero[_ngcontent-xit-c3]{
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto;
+    overflow-x:none!important;
+    position:relative;
+    background-repeat:no-repeat,repeat;
+    background-position:right center;
+    background-size:cover
+}
+
+.hero-text[_ngcontent-xit-c3]{
+    text-align:center;
+    color:var(--white);
+    z-index:1
+}
+
+.hero-text[_ngcontent-xit-c3] > h1[_ngcontent-xit-c3]{
+    font-size:80px;
+    line-height:80px;
+    text-align:center;
+    margin:0
+}
+
+.hero-text[_ngcontent-xit-c3] > a[_ngcontent-xit-c3] > img[_ngcontent-xit-c3]{
+    width:30px;
+    height:auto
+}
+
+.hero-buttons-wrapper[_ngcontent-xit-c3]{
+    text-align:center;
+    margin:20px 0 30px
+}
+
+.hero-button[_ngcontent-xit-c3]{
+    background-color:var(--purple);
+    padding:4px 15px;
+    border-radius:4px;
+    transition:.3s all
+}
+
+.hero-button[_ngcontent-xit-c3]:hover{
+    cursor: pointer;
+    background-color: var(--dark-purple);
+    transition:.3s all;
+}
+
+.hero-button[_ngcontent-xit-c3]:active, 
+.hero-button[_ngcontent-xit-c3]:focus{
+    outline:0
+}
+
+.footer[_ngcontent-xit-c3]{
+    position:fixed;
+    left:0;
+    bottom:0;
+    padding-bottom:15px;
+    width:100%;
+    font-size:21px;
+    margin:0;
+    text-align:center;
+    color:var(--text-white)
+}
+
+.footer-element[_ngcontent-xit-c3]{
+    color:var(--text-white);
+    transition:.3s all;
+    margin:0 3px
+}
+
+.footer-element[_ngcontent-xit-c3]   a[_ngcontent-xit-c3]{
+    text-decoration:none;
+    color:var(--text-white);
+    transition:.3s all;
+}
+
+.footer-element[_ngcontent-xit-c3]:hover, 
+.footer-element[_ngcontent-xit-c3]:hover > a[_ngcontent-xit-c3]{
+    color:var(--gray-blue);
+    ransition:.3s all;
+    cursor:pointer
+}
+
+.footer-element[_ngcontent-xit-c3]:active, 
+.footer-element[_ngcontent-xit-c3]:focus{
+    outline:0
+}
+
+@media (max-width:400px){
+    .hero-text[_ngcontent-xit-c3] > h1[_ngcontent-xit-c3]{
+    font-size:50px
+    }
